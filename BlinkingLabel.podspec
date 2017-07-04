@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
 
 
   s.name             = 'BlinkingLabel'
-  s.version          = '1.0.3'
-  s.summary          = 'A short description of BlinkingLabel.'
+  s.version          = '1.0.4'
+  s.summary          = 'label blinks'
 
   s.description      = 'a label that blinks'
 
@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
 
   s.author           = { 'windtalkerz' => 'windtalkerz@me.com' }
-s.source           = { :git => 'https://github.com/windtalkerz/BlinkingLabel.git', :tag => '1.0.3' }
+s.source           = { :git => 'https://github.com/windtalkerz/BlinkingLabel.git', :tag => '1.0.4' }
 
   # s.social_media_url = 'https://twitter.com/'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BlinkingLabel/Classes/**/*'
+  s.source_files = 'BlinkingLabel/**/*'
   
   # s.resource_bundles = {
   #   'BlinkingLabel' => ['BlinkingLabel/Assets/*.png']
