@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
 
 
-  s.name             = 'BlinkingLabel'
-  s.version          = '1.0.6'
-  s.summary          = 'label blinks'
+  s.name             = 'BlinkingLabelXXX'
+  s.version          = '1.0.7'
+  s.summary          = 'label blinks XXX'
 
-  s.description      = 'a label that blinks'
+  s.description      = 'a label that blinks XXX'
 
   s.homepage         = 'https://github.com/windtalkerz/BlinkingLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
 
   s.author           = { 'windtalkerz' => 'windtalkerz@me.com' }
-s.source           = { :git => 'https://github.com/windtalkerz/BlinkingLabel.git', :tag => '1.0.6' }
+s.source           = { :git => 'https://github.com/windtalkerz/BlinkingLabel.git', :tag => '1.0.7' }
 
   # s.social_media_url = 'https://twitter.com/'
 
