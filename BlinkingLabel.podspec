@@ -8,33 +8,29 @@
 
 Pod::Spec.new do |s|
 
-s.USER_NAME = windtalkerz
-s.POD_NAME = BlinkingLabel
-s.USER_EMAIL = windtalkerz@me.com
 
-
-
-  s.name             = '${POD_NAME}'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of ${POD_NAME}.'
+  s.name             = 'BlinkingLabel'
+  s.version          = '0.0.2'
+  s.summary          = 'A short description of BlinkingLabel.'
 
   s.description      = 'a label that blinks'
 
-  s.homepage         = 'https://github.com/${USER_NAME}/${POD_NAME}'
+  s.homepage         = 'https://github.com/windtalkerz/BlinkingLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.license = 'MIT'
 
-  s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
-  s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
+  s.author           = { 'windtalkerz' => 'windtalkerz@me.com' }
+s.source           = { :git => 'https://github.com/windtalkerz/BlinkingLabel.git', :tag => '0.0.2' }
+
   # s.social_media_url = 'https://twitter.com/'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '${POD_NAME}/Classes/**/*'
+  s.source_files = 'BlinkingLabel/Classes/**/*'
   
   # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
+  #   'BlinkingLabel' => ['BlinkingLabel/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
