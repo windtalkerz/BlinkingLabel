@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9BE979A31F0BBCC100048685 /* BlinkingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE979A11F0BBCC100048685 /* BlinkingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE979D81F0BDF2E00048685 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE979D71F0BDF2E00048685 /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BE9799E1F0BBCC100048685 /* BlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE979A11F0BBCC100048685 /* BlinkingLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinkingLabel.h; sourceTree = "<group>"; };
 		9BE979A21F0BBCC100048685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE979D71F0BDF2E00048685 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				9BE979A11F0BBCC100048685 /* BlinkingLabel.h */,
 				9BE979A21F0BBCC100048685 /* Info.plist */,
+				9BE979D71F0BDF2E00048685 /* Array.swift */,
 			);
 			path = BlinkingLabel;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 					9BE9799D1F0BBCC100048685 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = R46K376MQS;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE979D81F0BDF2E00048685 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +247,7 @@
 		9BE979A71F0BBCC100048685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R46K376MQS;
@@ -254,6 +260,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tv.appmakers.BlinkingLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +268,7 @@
 		9BE979A81F0BBCC100048685 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R46K376MQS;
@@ -296,6 +304,7 @@
 				9BE979A81F0BBCC100048685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
